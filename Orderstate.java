@@ -1,0 +1,4 @@
+public enum Orderstate {
+    PENDIENTE,ASIGNADA,EN_ATENCION,COMPLETADA,CANCELADA
+    
+}
