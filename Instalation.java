@@ -12,7 +12,7 @@ public class Instalation extends OrdenS {
         this.points=points;
     }
     public int getPoints(){return points;}
-    public double getHoursbyPoints(){return points + HORAS_BY_PUNTO;}
+    public double getHoursbyPoints(){return points * HORAS_BY_PUNTO;}
 
     public double getHoursFactures(){
         return Math.max(getEstimedhours(), getHoursbyPoints());

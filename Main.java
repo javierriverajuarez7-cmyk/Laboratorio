@@ -23,8 +23,8 @@ public class Main {
                     case 5: retiredOrder();break;
                     case 6: startJourney();break;
                     case 7: registerResult();break;
-                    case 8: businnes.getOrdens();break;
-                    case 9: businnes.getGangs();break;
+                    case 8: businnes.getOrdens().forEach(System.out::println);;break;
+                    case 9: businnes.getGangs().forEach(System.out::println);;break;
                     case 10: reports(); break;
                     case 0: out = true; System.out.println("Hasta la proxima");break;
                     default: System.out.println("Opcion invalida.");
